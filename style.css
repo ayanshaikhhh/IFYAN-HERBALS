@@ -1,17 +1,43 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .navbar-brand {
-    font-size: 32px;
+  font-size: 32px;
 }
-.nav-pills li a{
-    color: black;
-    font-weight: 600;
+.nav-pills li a {
+  color: black;
+  font-weight: 600;
 }
 .nav-pills li a:hover {
-    background-color: #28a745;
-    color: white;
+  background-color: #28a745;
+  color: white;
+}
+
+/*--------------------------------------Part 4-------------------------------------*/
+.part-4 {
+  background-color: #e4c880;
+}
+
+.card-3 {
+  height: 50px;
+  width: 50px;
+}
+
+.card-3 img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+
+
+
+/*--------------------------------------Part 6-------------------------------------*/
+.card-8{
+    background-color: white;
+    border: none;
+
 }
