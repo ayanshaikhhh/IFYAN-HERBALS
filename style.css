@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+html,
+body {
+  overflow-x: hidden;
+}
+
 .navbar-brand {
   font-size: 32px;
 }
@@ -32,12 +37,17 @@
   object-fit: cover;
 }
 
-
-
-
 /*--------------------------------------Part 6-------------------------------------*/
-.card-8{
-    background-color: white;
-    border: none;
+.card-8 {
+  background-color: white;
+  border: none;
+}
 
+
+
+
+
+
+.card {
+  border-radius: .7rem;
 }
